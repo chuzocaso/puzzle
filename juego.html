@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BMO Arcade</title>
+    <link rel="stylesheet" href="css/juego.css">
+  </head>
+  <body>
+    <div class="col-40">
+    
+      <h1 id="titulo">
+        ROMPECABEZAS
+      </h1>
+      <div id="instrucciones">
+        <ul id="lista-instrucciones">
+          Instrucciones:
+        </ul>
+      </div>
+      <div id="objetivo">
+        <strong>Objetivo:</strong> Conseguir que la imagen quede armada correctamente. <img src="images\Federer.png" alt="Federer" id="imagen-completa">
+        <div class="texto-centrado">
+          
+        </div>
+      </div>
+      <div id="ultimo-mov">
+        <em>Ultimo Movimiento:</em>
+        <div id="flecha" class="texto-centrado">          
+        </div>
+      </div>
+      <div id="movimientos"> 
+        <button onclick="mostrarMovimientos(movimientosEnFormatoFlecha)" id="botonDeMovimientos"> Mostrar movimientos realizados</button>
+        <ul id="lista-movimientos"></ul>  
+        <div id="flechas" class="texto-centrado">          
+          </div>
+        </div>
+    </div>
+    <div class="col-60">
+      <div id="juego">
+        <div id="pieza1" class="grilla">
+          <img src="images\IMG_7746.jpg" alt="imagen 1">
+        </div>
+        <div id="pieza2" class="grilla">
+          <img src="images\IMG_7747.jpg" alt="imagen 2">
+        </div>
+        <div id="pieza3" class="grilla">
+          <img src="images\IMG_7748.jpg" alt="imagen 3">
+        </div>
+        <div id="pieza4" class="grilla">
+          <img src="images\IMG_7749.jpg" alt="imagen 4">
+        </div>
+        <div id="pieza5" class="grilla">
+          <img src="images\IMG_7750.jpg" alt="imagen 5">
+        </div>
+        <div id="pieza6" class="grilla">
+          <img src="images\IMG_7751.jpg" alt="imagen 6">
+        </div>
+        <div id="pieza7" class="grilla">
+          <img src="images\IMG_7752.jpg" alt="imagen 7">
+        </div>
+        <div id="pieza8" class="grilla">
+          <img src="images\IMG_7753.jpg" alt="imagen 8">
+        </div>
+        <div id="pieza9" class="grilla">
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      
+    </div>
+    <script src="js/juego.js"></script>
+  </body>
+</html>
